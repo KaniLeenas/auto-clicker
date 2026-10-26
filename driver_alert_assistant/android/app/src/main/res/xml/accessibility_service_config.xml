@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Phase 2: the service only hosts the floating panel.
+  It does not read other apps' screens yet (canRetrieveWindowContent=false)
+  and cannot tap yet (no canPerformGestures). Those are added in later
+  phases, only when needed.
+-->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/accessibility_service_description"
+    android:accessibilityEventTypes="typeWindowStateChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagDefault"
+    android:notificationTimeout="200"
+    android:canRetrieveWindowContent="false"
+    android:settingsActivity="lk.driveralert.driver_alert_assistant.MainActivity" />

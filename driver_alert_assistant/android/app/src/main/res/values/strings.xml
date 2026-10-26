@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_service_label">Smart Auto Clicker</string>
+    <string name="accessibility_service_description">Shows the Smart Auto Clicker control panel over other apps. In later versions it will also read buttons and text, and tap for you, only following the rules you set. Nothing is sent off this phone.</string>
+</resources>
